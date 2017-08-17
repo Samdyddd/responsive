@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="AdminLTE.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="jquery-2.2.3.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="myScript.js"></script>
+    <script src="demo.js"></script>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <!--头部  -->
+        <header class="main-header">
+            <a href="#" class="logo">
+                <span class="logo-mini">AMY</span>
+                <span class="logo-lg">adminMy</span>
+            </a>
+            <nav class="navbar">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span>左拉</span>
+                </a>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown email-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span>邮箱</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><span>信息</span></li>
+                                <li><span>设置</span></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown lala-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                啦啦
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>1</li>
+                                <li>2</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="control-sidebar">
+                                <span>设置</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </nav>
+
+
+        </header>
+
+        <!--左侧  -->
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="user-160x160.jpg" class="img-circle" alt="User Image">
+                    </div>
+                    <div class="pull-left info">
+                        <p>亚历山大~刘四</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i>Online</a>
+                    </div>
+                </div>
+                <form action="#" class="sidebar-form">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="search..">
+                        <span class="input-group-btn">
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+
+                <ul class="sidebar-menu">
+                    <li class="header">下列是菜单</li>
+                    <li class="active treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i>
+                            <span>导航</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i>导航1</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>导航2</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-pie-chart"></i>
+                            <span>图表</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i>圆形图</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>曲线图</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>柱型图</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th"></i><span>singlePage</span>
+                            <span class="pull-right-container">
+                                <small class="label pull-right bg-green">new</small>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+
+        <!--内容  -->
+        <div class="content-wrapper">
+            <section class="content-header">
+                <h1>方向盘
+                    <small>控制模块</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                    <li class="active">Dashboard</li>
+                </ol>
+            </section>
+
+            <section class="content">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h3>150</h3>
+
+                                <p>New orders</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-bag"></i>
+                            </div>
+                            <a href="#" class="small-box-footer">More info<i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!--two  -->
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h3>52<sup>%</sup></h3>
+
+                                <p>Bounce rate</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="#" class="small-box-footer">More info<i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h3>52<sup>%</sup></h3>
+
+                                <p>Bounce rate</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="#" class="small-box-footer">More info<i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h3>52<sup>%</sup></h3>
+
+                                <p>Bounce rate</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="#" class="small-box-footer">More info<i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <section class="col-lg-7 connectedSortable">
+                        <!-- Custom tabs (Charts with tabs)-->
+                        <div class="nav-tabs-custom">
+                            <!-- Tabs within a box -->
+                            <ul class="nav nav-tabs pull-right">
+                                <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
+                                <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
+                                <li class="pull-left header"><i class="fa fa-inbox"></i> Sales</li>
+                            </ul>
+                            <div class="tab-content no-padding">
+                                <!-- Morris chart - Sales -->
+                                <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;"></div>
+                                <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
+                            </div>
+                        </div>
+
+                        <div class="box box-info">
+                            <div class="box-header">
+                                <i class="fa fa-envelope"></i>
+
+                                <h3 class="box-title">Quick Email</h3>
+                                <!-- tools box -->
+                                <div class="pull-right box-tools">
+                                    <button type="button" class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                                        <i class="fa fa-times"></i></button>
+                                </div>
+                                <!-- /. tools -->
+                            </div>
+                            <div class="box-body">
+                                <form action="#" method="post">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="emailto" placeholder="Email to:">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Subject">
+                                    </div>
+                                    <div>
+                                        <textarea class="textarea" placeholder="Message" style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="box-footer clearfix">
+                                <button type="button" class="pull-right btn btn-default" id="sendEmail">Send
+                                    <i class="fa fa-arrow-circle-right"></i></button>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="col-lg-5 connectedSortable">
+                        <div class="box box-solid bg-light-blue-gradient">
+                            <div class="box-header">
+                                <div class="pull-right box-tools">
+                                    <button type="button" class="btn btn-primary btn-sm daterange pull-right" data-toggle="tooltip" title="Date range">
+                                        <i class="fa fa-calendar"></i></button>
+                                    <button type="button" class="btn btn-primary btn-sm pull-right" data-widget="collapse" data-toggle="tooltip" title="Collapse" style="margin-right: 5px;">
+                                        <i class="fa fa-minus"></i></button>
+                                </div>
+                                <i class="fa fa-map-marker"></i>
+
+                                <h3 class="box-title">
+                                    Visitors
+                                </h3>
+                            </div>
+                            <div class="box-body">
+                                <div id="world-map" style="height:250px;width:100%;"></div>
+                            </div>
+                            <div class="box-footer no-border">
+                                <div class="row">
+                                    <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                                        <div id="sparkline-1"></div>
+                                        <div class="knob-label">Visitors</div>
+                                    </div>
+                                    <!-- ./col -->
+                                    <div class="col-xs-4 text-center" style="border-right: 1px solid #f4f4f4">
+                                        <div id="sparkline-2"></div>
+                                        <div class="knob-label">Online</div>
+                                    </div>
+                                    <!-- ./col -->
+                                    <div class="col-xs-4 text-center">
+                                        <div id="sparkline-3"></div>
+                                        <div class="knob-label">Exists</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </section>
+        </div>
+
+        <!--脚部  -->
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b>0.0.1
+            </div>
+            <strong>Copyright &copy; 2017 <a href="#">GITHUB PAGE </a>.</strong>All right reserved.
+        </footer>
+
+        <!--设置页面  -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                <li><a href="#control-sidebar-home-tab" data-toggle="tab">home</a></li>
+                <li><a href="#control-sidebar-settings-tab" data-toggle="tab">setting</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane" id="control-sidebar-home-tab">
+                    <h3>返回主页</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a>点击</a>
+                        </li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="control-sidebar-settings-tab">
+                    <h3>设置</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a>点击</a>
+                        </li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+            </div>
+
+        </aside>
+
+
+    </div>
+
+</body>
+
+</html>

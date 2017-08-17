@@ -1,0 +1,10 @@
+bootstrap.js中：
+Data-*属性 模态框(modal) 触发事件(data-toggle) 触发对象data-target(ID 或类)
+
+
+col-lg-3:在@media(min-width:1200px){.col-lg-3{width:25%;}}
+
+@media(min-width:1200px){.col-lg-7{width:58.33333%}};
+
+
+利用@media判断窗口的大小添加类名。。。。。
